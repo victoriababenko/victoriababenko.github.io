@@ -1,0 +1,53 @@
+@import url("base.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+
+h1,
+h2,
+h3 {
+  color: gray;
+  font-weight: 700;
+}
+
+#main {
+  color: #e60202;
+}
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
+
+body {
+  font-family: Roboto, Times, serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.45rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+div {
+  font-size: 1rem;
+}
+
+span {
+  font-size: 1.6em;
+}
+
+strong {
+  font-size: 1.6rem;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.footer-social {
+}
