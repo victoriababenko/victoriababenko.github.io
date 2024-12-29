@@ -1,0 +1,44 @@
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+
+.box span {
+  display: inline-block;
+  background-color: pink;
+  border: 5px solid black;
+  padding: 1em;
+}
+
+.box_box1 {
+  box-sizing: content-box;
+}
+
+.box_box2 {
+  box-sizing: border-box;
+  border: 5px dashed black;
+  padding: 1em;
+  margin-top: 20px;
+  margin-right: 1em;
+  margin-bottom: 40px;
+  margin-left: 2em;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all_page {
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid black;
+  padding: 20px;
+}
